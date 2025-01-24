@@ -1,4 +1,4 @@
-<VirtualHost *:80>
+<VirtualHost *:8080>
   DocumentRoot "/usr/local/apache2/htdocs"
   ServerName #SERVER_NAME#
   ErrorLog "logs/custom_proxy-error_log"
