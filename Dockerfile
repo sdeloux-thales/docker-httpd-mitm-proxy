@@ -10,7 +10,7 @@ ADD scripts /scripts/
 RUN chmod +x /scripts/entrypoint.sh
 
 # expose http port
-EXPOSE 80
+EXPOSE 8080
 
 # entrypoint for dynamic proxy vhosts and starting apache
 ENTRYPOINT ["/scripts/entrypoint.sh"]
