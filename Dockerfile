@@ -8,13 +8,10 @@ ADD scripts /scripts/
 
 # give rights
 RUN chmod +x /scripts/entrypoint.sh
-RUN chmod -R 777 /usr/local/apache2/conf/
+RUN chmod -R 777 /usr/local/apache2/
 
 # expose http port
 EXPOSE 8080
-
-# set user root to avoid apache permission errors
-USER root
 
 # entrypoint for dynamic proxy vhosts and starting apache
 ENTRYPOINT ["/scripts/entrypoint.sh"]
