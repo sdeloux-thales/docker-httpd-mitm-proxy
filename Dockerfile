@@ -13,5 +13,8 @@ RUN chmod -R 777 /usr/local/apache2/conf/
 # expose http port
 EXPOSE 8080
 
+# set user root to avoid apache permission errors
+USER root
+
 # entrypoint for dynamic proxy vhosts and starting apache
 ENTRYPOINT ["/scripts/entrypoint.sh"]
