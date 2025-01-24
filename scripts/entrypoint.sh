@@ -30,110 +30,110 @@ if [ ! -f /usr/local/apache2/conf/extra/custom_proxy.conf ]; then
     fi
 
     # log passed parameters
-    echo "SERVER_NAME1: ${SERVER_NAME1}" > ~/passed_env_vars.log
-    echo "SERVER_NAME2: ${SERVER_NAME2}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME3: ${SERVER_NAME3}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME4: ${SERVER_NAME4}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME5: ${SERVER_NAME5}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME6: ${SERVER_NAME6}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME7: ${SERVER_NAME7}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME8: ${SERVER_NAME8}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME9: ${SERVER_NAME9}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME10: ${SERVER_NAME10}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME11: ${SERVER_NAME11}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME12: ${SERVER_NAME12}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME13: ${SERVER_NAME13}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME14: ${SERVER_NAME14}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME15: ${SERVER_NAME15}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME16: ${SERVER_NAME16}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME17: ${SERVER_NAME17}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME18: ${SERVER_NAME18}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME19: ${SERVER_NAME19}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME20: ${SERVER_NAME20}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME21: ${SERVER_NAME21}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME22: ${SERVER_NAME22}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME23: ${SERVER_NAME23}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME24: ${SERVER_NAME24}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME25: ${SERVER_NAME25}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME26: ${SERVER_NAME26}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME27: ${SERVER_NAME27}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME28: ${SERVER_NAME28}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME29: ${SERVER_NAME29}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME30: ${SERVER_NAME30}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME31: ${SERVER_NAME31}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME32: ${SERVER_NAME32}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME33: ${SERVER_NAME33}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME34: ${SERVER_NAME34}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME35: ${SERVER_NAME35}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME36: ${SERVER_NAME36}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME37: ${SERVER_NAME37}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME38: ${SERVER_NAME38}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME39: ${SERVER_NAME39}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME40: ${SERVER_NAME40}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME41: ${SERVER_NAME41}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME42: ${SERVER_NAME42}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME43: ${SERVER_NAME43}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME44: ${SERVER_NAME44}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME45: ${SERVER_NAME45}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME46: ${SERVER_NAME46}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME47: ${SERVER_NAME47}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME48: ${SERVER_NAME48}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME49: ${SERVER_NAME49}" >> ~/passed_env_vars.log
-    echo "SERVER_NAME50: ${SERVER_NAME50}" >> ~/passed_env_vars.log
-    echo "PROXY_URL1: ${PROXY_URL1}" >> ~/passed_env_vars.log
-    echo "PROXY_URL2: ${PROXY_URL2}" >> ~/passed_env_vars.log
-    echo "PROXY_URL3: ${PROXY_URL3}" >> ~/passed_env_vars.log
-    echo "PROXY_URL4: ${PROXY_URL4}" >> ~/passed_env_vars.log
-    echo "PROXY_URL5: ${PROXY_URL5}" >> ~/passed_env_vars.log
-    echo "PROXY_URL6: ${PROXY_URL6}" >> ~/passed_env_vars.log
-    echo "PROXY_URL7: ${PROXY_URL7}" >> ~/passed_env_vars.log
-    echo "PROXY_URL8: ${PROXY_URL8}" >> ~/passed_env_vars.log
-    echo "PROXY_URL9: ${PROXY_URL9}" >> ~/passed_env_vars.log
-    echo "PROXY_URL10: ${PROXY_URL10}" >> ~/passed_env_vars.log
-    echo "PROXY_URL11: ${PROXY_URL11}" >> ~/passed_env_vars.log
-    echo "PROXY_URL12: ${PROXY_URL12}" >> ~/passed_env_vars.log
-    echo "PROXY_URL13: ${PROXY_URL13}" >> ~/passed_env_vars.log
-    echo "PROXY_URL14: ${PROXY_URL14}" >> ~/passed_env_vars.log
-    echo "PROXY_URL15: ${PROXY_URL15}" >> ~/passed_env_vars.log
-    echo "PROXY_URL16: ${PROXY_URL16}" >> ~/passed_env_vars.log
-    echo "PROXY_URL17: ${PROXY_URL17}" >> ~/passed_env_vars.log
-    echo "PROXY_URL18: ${PROXY_URL18}" >> ~/passed_env_vars.log
-    echo "PROXY_URL19: ${PROXY_URL19}" >> ~/passed_env_vars.log
-    echo "PROXY_URL20: ${PROXY_URL20}" >> ~/passed_env_vars.log
-    echo "PROXY_URL21: ${PROXY_URL21}" >> ~/passed_env_vars.log
-    echo "PROXY_URL22: ${PROXY_URL22}" >> ~/passed_env_vars.log
-    echo "PROXY_URL23: ${PROXY_URL23}" >> ~/passed_env_vars.log
-    echo "PROXY_URL24: ${PROXY_URL24}" >> ~/passed_env_vars.log
-    echo "PROXY_URL25: ${PROXY_URL25}" >> ~/passed_env_vars.log
-    echo "PROXY_URL26: ${PROXY_URL26}" >> ~/passed_env_vars.log
-    echo "PROXY_URL27: ${PROXY_URL27}" >> ~/passed_env_vars.log
-    echo "PROXY_URL28: ${PROXY_URL28}" >> ~/passed_env_vars.log
-    echo "PROXY_URL29: ${PROXY_URL29}" >> ~/passed_env_vars.log
-    echo "PROXY_URL30: ${PROXY_URL30}" >> ~/passed_env_vars.log
-    echo "PROXY_URL31: ${PROXY_URL31}" >> ~/passed_env_vars.log
-    echo "PROXY_URL32: ${PROXY_URL32}" >> ~/passed_env_vars.log
-    echo "PROXY_URL33: ${PROXY_URL33}" >> ~/passed_env_vars.log
-    echo "PROXY_URL34: ${PROXY_URL34}" >> ~/passed_env_vars.log
-    echo "PROXY_URL35: ${PROXY_URL35}" >> ~/passed_env_vars.log
-    echo "PROXY_URL36: ${PROXY_URL36}" >> ~/passed_env_vars.log
-    echo "PROXY_URL37: ${PROXY_URL37}" >> ~/passed_env_vars.log
-    echo "PROXY_URL38: ${PROXY_URL38}" >> ~/passed_env_vars.log
-    echo "PROXY_URL39: ${PROXY_URL39}" >> ~/passed_env_vars.log
-    echo "PROXY_URL40: ${PROXY_URL40}" >> ~/passed_env_vars.log
-    echo "PROXY_URL41: ${PROXY_URL41}" >> ~/passed_env_vars.log
-    echo "PROXY_URL42: ${PROXY_URL42}" >> ~/passed_env_vars.log
-    echo "PROXY_URL43: ${PROXY_URL43}" >> ~/passed_env_vars.log
-    echo "PROXY_URL44: ${PROXY_URL44}" >> ~/passed_env_vars.log
-    echo "PROXY_URL45: ${PROXY_URL45}" >> ~/passed_env_vars.log
-    echo "PROXY_URL46: ${PROXY_URL46}" >> ~/passed_env_vars.log
-    echo "PROXY_URL47: ${PROXY_URL47}" >> ~/passed_env_vars.log
-    echo "PROXY_URL48: ${PROXY_URL48}" >> ~/passed_env_vars.log
-    echo "PROXY_URL49: ${PROXY_URL49}" >> ~/passed_env_vars.log
-    echo "PROXY_URL50: ${PROXY_URL50}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME1: ${SERVER_NAME1}" > ~/passed_env_vars.log
+    # echo "SERVER_NAME2: ${SERVER_NAME2}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME3: ${SERVER_NAME3}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME4: ${SERVER_NAME4}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME5: ${SERVER_NAME5}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME6: ${SERVER_NAME6}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME7: ${SERVER_NAME7}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME8: ${SERVER_NAME8}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME9: ${SERVER_NAME9}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME10: ${SERVER_NAME10}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME11: ${SERVER_NAME11}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME12: ${SERVER_NAME12}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME13: ${SERVER_NAME13}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME14: ${SERVER_NAME14}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME15: ${SERVER_NAME15}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME16: ${SERVER_NAME16}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME17: ${SERVER_NAME17}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME18: ${SERVER_NAME18}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME19: ${SERVER_NAME19}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME20: ${SERVER_NAME20}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME21: ${SERVER_NAME21}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME22: ${SERVER_NAME22}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME23: ${SERVER_NAME23}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME24: ${SERVER_NAME24}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME25: ${SERVER_NAME25}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME26: ${SERVER_NAME26}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME27: ${SERVER_NAME27}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME28: ${SERVER_NAME28}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME29: ${SERVER_NAME29}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME30: ${SERVER_NAME30}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME31: ${SERVER_NAME31}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME32: ${SERVER_NAME32}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME33: ${SERVER_NAME33}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME34: ${SERVER_NAME34}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME35: ${SERVER_NAME35}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME36: ${SERVER_NAME36}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME37: ${SERVER_NAME37}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME38: ${SERVER_NAME38}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME39: ${SERVER_NAME39}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME40: ${SERVER_NAME40}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME41: ${SERVER_NAME41}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME42: ${SERVER_NAME42}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME43: ${SERVER_NAME43}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME44: ${SERVER_NAME44}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME45: ${SERVER_NAME45}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME46: ${SERVER_NAME46}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME47: ${SERVER_NAME47}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME48: ${SERVER_NAME48}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME49: ${SERVER_NAME49}" >> ~/passed_env_vars.log
+    # echo "SERVER_NAME50: ${SERVER_NAME50}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL1: ${PROXY_URL1}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL2: ${PROXY_URL2}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL3: ${PROXY_URL3}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL4: ${PROXY_URL4}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL5: ${PROXY_URL5}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL6: ${PROXY_URL6}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL7: ${PROXY_URL7}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL8: ${PROXY_URL8}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL9: ${PROXY_URL9}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL10: ${PROXY_URL10}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL11: ${PROXY_URL11}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL12: ${PROXY_URL12}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL13: ${PROXY_URL13}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL14: ${PROXY_URL14}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL15: ${PROXY_URL15}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL16: ${PROXY_URL16}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL17: ${PROXY_URL17}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL18: ${PROXY_URL18}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL19: ${PROXY_URL19}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL20: ${PROXY_URL20}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL21: ${PROXY_URL21}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL22: ${PROXY_URL22}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL23: ${PROXY_URL23}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL24: ${PROXY_URL24}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL25: ${PROXY_URL25}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL26: ${PROXY_URL26}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL27: ${PROXY_URL27}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL28: ${PROXY_URL28}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL29: ${PROXY_URL29}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL30: ${PROXY_URL30}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL31: ${PROXY_URL31}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL32: ${PROXY_URL32}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL33: ${PROXY_URL33}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL34: ${PROXY_URL34}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL35: ${PROXY_URL35}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL36: ${PROXY_URL36}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL37: ${PROXY_URL37}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL38: ${PROXY_URL38}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL39: ${PROXY_URL39}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL40: ${PROXY_URL40}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL41: ${PROXY_URL41}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL42: ${PROXY_URL42}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL43: ${PROXY_URL43}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL44: ${PROXY_URL44}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL45: ${PROXY_URL45}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL46: ${PROXY_URL46}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL47: ${PROXY_URL47}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL48: ${PROXY_URL48}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL49: ${PROXY_URL49}" >> ~/passed_env_vars.log
+    # echo "PROXY_URL50: ${PROXY_URL50}" >> ~/passed_env_vars.log
 
 
-    echo "Passed environment variables"
-    cat ~/passed_env_vars.log
+    # echo "Passed environment variables"
+    # cat ~/passed_env_vars.log
 
     # create dynamic apache vhost file for each server name env variable
     if [ ! -z "${SERVER_NAME1}" ]; then
