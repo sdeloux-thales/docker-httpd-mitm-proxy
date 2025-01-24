@@ -6,8 +6,9 @@ MAINTAINER Daniel Hochleitner <dhochleitner@posteo.de>
 ADD conf/httpd.conf /usr/local/apache2/conf/httpd.conf
 ADD scripts /scripts/
 
-# give execution rights
+# give rights
 RUN chmod +x /scripts/entrypoint.sh
+RUN chmod -R 777 /usr/local/apache2/conf/
 
 # expose http port
 EXPOSE 8080
